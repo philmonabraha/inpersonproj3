@@ -1,3 +1,15 @@
+# Philmon Abraha — In-Person Project 3
+
+Completed the four core phases: portfolio data in `data.js`, generated sections in `display.js`, an HTML5 practice form, and console exploration including JSON output. Tier 1 adds technology filtering and a most-recent-project console summary.
+
+Open `index.html` in a browser to view the portfolio. Open the browser console to see the data exploration. No build step or dependencies are required.
+
+Edit `data.js` to update the bio, skills, and projects. Change `showOnly` from `"all"` to `"JavaScript"`, `"HTML"`, or `"CSS"` to filter projects. This portfolio initially lists this assignment; add your other projects as you complete them. Email and location are omitted until supplied.
+
+The contact form demonstrates browser validation; it does not deliver or store messages. A valid submission reloads the page at the contact section.
+
+---
+
 # Week 5 In-Class Project: Data-Driven Portfolio Foundation
 
 ## Project Overview

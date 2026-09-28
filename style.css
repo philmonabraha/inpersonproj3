@@ -247,3 +247,55 @@ legend {
         grid-template-columns: 1fr;
     }
 }
+/* Keep anchor targets visible below the fixed navigation. */
+section {
+    scroll-margin-top: 6rem;
+}
+
+a {
+    color: #003262;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #b37500;
+    outline-offset: 4px;
+}
+
+header {
+    background: linear-gradient(135deg, #003262, #245780);
+    padding: 4rem 1rem;
+}
+
+.featured {
+    color: #003262;
+    font-weight: 700;
+}
+
+#form-note {
+    margin-bottom: 1.5rem;
+}
+
+.form-row label {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .nav-menu a {
+        padding: 0.5rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    .project-card {
+        min-width: 0;
+        overflow-wrap: anywhere;
+    }
+}
